@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My First App</string>
+    <string name="action_settings">Settings</string>
+
+    //Buttons strings hardcoded
+    <string name="buttonHappy">Happy ｡^‿^｡</string>
+    <string name="buttonSad">Sad (︶︹︺)</string>
+    <string name="buttonAngry">Angry ಠ_ಠ</string>
+    <string name="buttonFearful">Fearful ⊙﹏⊙</string>
+    <string name="buttonLonely">Lonely 	(っ˘̩╭╮˘̩)っ</string>
+    <string name="buttonJealous">Jealous (ﾉ´ з `)ノ</string>
+
+
+</resources>
