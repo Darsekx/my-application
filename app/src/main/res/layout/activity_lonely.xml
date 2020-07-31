@@ -4,22 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SadActivity"
-    android:background="@drawable/sad_square"
-    >
+    tools:context=".LonelyActivity">
 
     <Button
-        android:id="@+id/buttonSad"
+        android:id="@+id/buttonLonely"
         android:layout_width="411dp"
         android:layout_height="@dimen/dpHeight85"
         android:layout_marginTop="12dp"
-        android:text="Sad (︶︹︺)"
+        android:text="Lonely 	(っ˘̩╭╮˘̩)っ"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonHappy"
-        tools:visibility="visible" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonFearful" />
 
 </RelativeLayout>

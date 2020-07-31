@@ -9,20 +9,8 @@
     tools:showIn="@layout/activity_main">
 
     <Button
-        android:id="@+id/BtnActivityOne"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginBottom="16dp"
-        android:text="Move to Activity 2"
-        android:textAllCaps="false"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
         android:id="@+id/buttonHappy"
-        android:layout_width="0dp"
+        android:layout_width="411dp"
         android:layout_height="@dimen/dpHeight85"
         android:layout_marginTop="68dp"
         android:text="Happy ｡^‿^｡"
@@ -49,7 +37,7 @@
 
     <Button
         android:id="@+id/buttonAngry"
-        android:layout_width="0dp"
+        android:layout_width="411dp"
         android:layout_height="@dimen/dpHeight85"
         android:layout_marginTop="12dp"
         android:text="Angry ಠ_ಠ"
@@ -62,7 +50,7 @@
 
     <Button
         android:id="@+id/buttonFearful"
-        android:layout_width="0dp"
+        android:layout_width="411dp"
         android:layout_height="@dimen/dpHeight85"
         android:layout_marginTop="12dp"
         android:text="Fearful ⊙﹏⊙"
@@ -75,7 +63,7 @@
 
     <Button
         android:id="@+id/buttonLonely"
-        android:layout_width="0dp"
+        android:layout_width="411dp"
         android:layout_height="@dimen/dpHeight85"
         android:layout_marginTop="12dp"
         android:text="Lonely 	(っ˘̩╭╮˘̩)っ"
@@ -88,7 +76,7 @@
 
     <Button
         android:id="@+id/buttonJealous"
-        android:layout_width="0dp"
+        android:layout_width="411dp"
         android:layout_height="@dimen/dpHeight85"
         android:layout_marginTop="12dp"
         android:text="Jealous (ﾉ´ з `)ノ"

@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
 
-                moveToActivityTwo();
+                moveToActivityHappy();
             }
         });
 
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 moveToActivitySad();
             }
         });
-        /*
+
         //Button Angry link
         BtnMove = findViewById(R.id.buttonAngry);
         BtnMove.setOnClickListener(new View.OnClickListener(){
@@ -80,19 +80,42 @@ public class MainActivity extends AppCompatActivity {
                 moveToActivityJealous();
             }
         });
-*/
 
     }
 
-    private void moveToActivityTwo(){
+    private void moveToActivityHappy(){
 
-        Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+        Intent intent = new Intent(MainActivity.this, HappyActivity.class);
         startActivity(intent);
     }
 
     private void moveToActivitySad(){
 
         Intent intent = new Intent(MainActivity.this, SadActivity.class);
+        startActivity(intent);
+    }
+
+    private void moveToActivityAngry(){
+
+        Intent intent = new Intent(MainActivity.this, AngryActivity.class);
+        startActivity(intent);
+    }
+
+    private void moveToActivityFearful(){
+
+        Intent intent = new Intent(MainActivity.this, FearfulActivity.class);
+        startActivity(intent);
+    }
+
+    private void moveToActivityLonely(){
+
+        Intent intent = new Intent(MainActivity.this, LonelyActivity.class);
+        startActivity(intent);
+    }
+
+    private void moveToActivityJealous(){
+
+        Intent intent = new Intent(MainActivity.this, JealousActivity.class);
         startActivity(intent);
     }
 
